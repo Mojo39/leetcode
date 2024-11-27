@@ -23,7 +23,7 @@ public class LengthofLastWordTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void IsPalindrome_IsRun_Correct(string s, int expected)
+    public void IsPalindrome_Execute_Correct(string s, int expected)
     {
         var result = LengthofLastWord.LengthOfLastWord(s);
 

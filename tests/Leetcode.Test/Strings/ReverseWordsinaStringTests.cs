@@ -22,7 +22,7 @@ internal class ReverseWordsinaStringTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void ReverseWords_IsRun_Correct(string s, string expected)
+    public void ReverseWords_Execute_Correct(string s, string expected)
     {
         var result = ReverseWordsinaString.ReverseWords(s);
 
@@ -32,7 +32,7 @@ internal class ReverseWordsinaStringTests
 
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void ReverseWordsV2_IsRun_Correct(string s, string expected)
+    public void ReverseWordsV2_Execute_Correct(string s, string expected)
     {
         var result = ReverseWordsinaString.ReverseWordsV1(s);
 

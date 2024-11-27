@@ -17,7 +17,7 @@ public class MajorityElementTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void Majority_IsRun_Correct(int[] nums, int expected)
+    public void Majority_Execute_Correct(int[] nums, int expected)
     {
         var result = MajorityElement.Majority(nums);
 

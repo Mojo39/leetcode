@@ -21,7 +21,7 @@ public class RemoveElementTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void Remove_IsRun_Correct(int[] nums, int val, int[] expectedNums)
+    public void Remove_Execute_Correct(int[] nums, int val, int[] expectedNums)
     {
         var result = RemoveElement.Remove(nums, val);
 

@@ -27,7 +27,7 @@ public class MergeSortedArrayTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void Merge_IsRun_Correct(int[] nums1, int m, int[] nums2, int n, int[] expectedNums)
+    public void Merge_Execute_Correct(int[] nums1, int m, int[] nums2, int n, int[] expectedNums)
     {
         MergeSortedArray.Merge(nums1, m, nums2, n);
 

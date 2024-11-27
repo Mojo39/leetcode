@@ -41,7 +41,7 @@ internal class RotateArrayTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void Rotate_IsRun_Correct(int[] nums, int k, int[] expectedNums)
+    public void Rotate_Execute_Correct(int[] nums, int k, int[] expectedNums)
     {
         RotateArray.Rotate(nums, k);
 

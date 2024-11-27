@@ -24,7 +24,7 @@ internal class ValidPalindromeTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void IsPalindrome_IsRun_Correct(string s, bool expected)
+    public void IsPalindrome_Execute_Correct(string s, bool expected)
     {
         var result = ValidPalindrome.IsPalindrome(s);
 

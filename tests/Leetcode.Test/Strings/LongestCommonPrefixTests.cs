@@ -17,7 +17,7 @@ internal class LongestCommonPrefixTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void IsPalindrome_IsRun_Correct(string[] strs, string expected)
+    public void IsPalindrome_Execute_Correct(string[] strs, string expected)
     {
         var result = LongestCommonPrefix.CommonPrefix(strs);
 

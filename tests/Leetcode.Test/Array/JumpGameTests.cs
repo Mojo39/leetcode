@@ -24,7 +24,7 @@ public class JumpGameTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void CanJump_IsRun_Correct(int[] nums, bool expected)
+    public void CanJump_Execute_Correct(int[] nums, bool expected)
     {
         var result = JumpGame.CanJump(nums);
 

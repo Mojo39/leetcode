@@ -16,7 +16,7 @@ internal class IsSubsequenceProblemTests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void IsSubsequence_IsRun_Correct(string s, string t, bool expected)
+    public void IsSubsequence_Execute_Correct(string s, string t, bool expected)
     {
         var result = IsSubsequenceProblem.IsSubsequence(s, t);
 

@@ -21,7 +21,7 @@ public class RemoveDuplicatesfromSortedArrayIITests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void RemoveDuplicates_IsRun_Correct(int[] nums, int[] expectedNums)
+    public void RemoveDuplicates_Execute_Correct(int[] nums, int[] expectedNums)
     {
         var result = RemoveDuplicatesfromSortedArrayII.RemoveDuplicates(nums);
 

@@ -30,7 +30,7 @@ public class BestTimetoBuyandSellStockIITests
 {
     [Theory]
     [TestCaseSource(nameof(TestData))]
-    public void MaxProfit_IsRun_Correct(int[] nums, int expected)
+    public void MaxProfit_Execute_Correct(int[] nums, int expected)
     {
         var result = BestTimetoBuyandSellStockII.MaxProfit(nums);
 
